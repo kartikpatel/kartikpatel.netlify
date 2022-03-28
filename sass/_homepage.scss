@@ -1,18 +1,24 @@
+@keyframes spin {
+  100% {
+    transform:rotateZ(360deg)
+  }
+}
+
 @keyframes skew {
   0% {
-    transform: skew(0deg) rotate3D(0, 0, 1, 0deg);
+    transform: skew(0deg);
   }
   25% {
-    transform: skew(6deg) rotate3D(0, 0.1, 1, 90deg);
+    transform: skew(3deg);
   }
   50% {
-    transform: skew(3deg) rotate3D(0, 0, 1, 190deg);
+    transform: skew(2deg);
   }
   75% {
-    transform: skew(5deg) rotate3D(0, 0.2, 1, 270deg);
+    transform: skew(5deg);
   }
   100% {
-    transform: skew(1deg) rotate3D(0, 0, 1, 360deg);
+    transform: skew(0deg);
   }
 }
 
@@ -60,6 +66,8 @@
       left: 50%;
       transform: translate(-50%, -50%);
       border-radius: inherit;
+      width: 14rem;
+      height: 14rem;
     }
 
     @include lg {
