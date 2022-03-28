@@ -14,6 +14,7 @@ html {
 body {
   color: $darkPrim;
   background-color: $darkBgrd;
+  background: linear-gradient(180deg, $darkBgrd 43%, $darkBgrdSecondary 100%);
   font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial,
     sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
 }
