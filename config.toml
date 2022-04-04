@@ -22,6 +22,7 @@ job = "Lead Software Architect & Manager"
 description = ""
 
 links = [
+    { url = "https://registry.jsonresume.org/kartikpatel", title="Resume", icon = "fab fa-regular fa-file"},
     { url = "https://github.com/kartikpatel", title="Github", icon = "fab fa-github"},
     { url = "https://twitter.com/ibekartikpatel", title="Twitter", icon = "fab fa-twitter"},
     { url = "https://www.linkedin.com/in/kartikppatel", title="LinkedIn", icon = "fab fa-linkedin"},
